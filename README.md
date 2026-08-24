@@ -13,9 +13,9 @@ authentication, and a responsive analytics interface.
 
 ------------------------------------------------------------------------
 
-## ✨ Key Features
+##  Key Features
 
-### 🔐 Authentication & User Access
+###  Authentication & User Access
 
 -   User registration and login
 -   JWT-based authentication
@@ -24,7 +24,7 @@ authentication, and a responsive analytics interface.
 -   Secure session handling
 -   User/workspace-aware dataset access
 
-### 📂 Dataset Management
+###  Dataset Management
 
 -   Upload business datasets in **CSV** and **XLSX** formats
 -   Dataset selection and workspace management
@@ -33,7 +33,7 @@ authentication, and a responsive analytics interface.
 -   Data preview tables
 -   Refresh and dataset switching
 
-### 🧹 Data Quality & Cleaning
+###  Data Quality & Cleaning
 
 -   Missing-value detection
 -   Duplicate-row detection
@@ -44,7 +44,7 @@ authentication, and a responsive analytics interface.
 -   Preview/approval workflow before applying amendments
 -   Cleaned dataset persistence
 
-### 📊 Interactive Analytics
+###  Interactive Analytics
 
 -   Automatically generated visualizations from selected columns
 -   Numeric summaries
@@ -55,14 +55,14 @@ authentication, and a responsive analytics interface.
 -   Dashboard column selection
 -   Responsive chart layouts
 
-### 💡 AI Insights
+###  AI Insights
 
 -   Data-quality observations
 -   Business-oriented insights and recommendations
 -   Insight cards based on the current dataset and analysis results
 -   Graceful handling of unavailable analysis
 
-### 📄 Reporting & Exports
+###  Reporting & Exports
 
 -   Professional PDF reports
 -   Dashboard PDF export
@@ -71,7 +71,7 @@ authentication, and a responsive analytics interface.
 -   Dataset previews and analytical summaries
 -   File downloads with appropriate file formats
 
-### 📱 Responsive SaaS UI
+###  Responsive SaaS UI
 
 -   Desktop, laptop, tablet, and mobile layouts
 -   Responsive sidebar/navigation behavior
@@ -82,7 +82,7 @@ authentication, and a responsive analytics interface.
 
 ------------------------------------------------------------------------
 
-## 🖥️ Screenshots
+##  Screenshots
 
 ### Dashboard
 
@@ -102,7 +102,7 @@ authentication, and a responsive analytics interface.
 
 ------------------------------------------------------------------------
 
-## 🏗️ Architecture
+##  Architecture
 
 ``` text
 ┌──────────────────────────────┐
@@ -143,7 +143,7 @@ authentication, and a responsive analytics interface.
 
 ------------------------------------------------------------------------
 
-## 🧰 Technology Stack
+##  Technology Stack
 
 ### Frontend
 
@@ -183,7 +183,7 @@ authentication, and a responsive analytics interface.
 
 ------------------------------------------------------------------------
 
-## 📁 Project Structure
+##  Project Structure
 
 ``` text
 insightflow-ai/
@@ -226,7 +226,7 @@ insightflow-ai/
 
 ------------------------------------------------------------------------
 
-## 🚀 Local Installation
+##  Local Installation
 
 ### 1. Clone the repository
 
@@ -296,7 +296,7 @@ http://localhost:5173
 
 ------------------------------------------------------------------------
 
-## 🔑 Environment Variables
+##  Environment Variables
 
 The application is designed to keep environment-specific values and
 secrets outside the source code.
@@ -330,7 +330,7 @@ Never commit:
 
 ------------------------------------------------------------------------
 
-## 🔄 Typical User Workflow
+##  Typical User Workflow
 
 ``` text
 Register
@@ -362,7 +362,7 @@ Export CSV / PDF
 
 ------------------------------------------------------------------------
 
-## 📊 Dashboard Workflow
+##  Dashboard Workflow
 
 Users can select a dataset and choose the columns they want to
 visualize.
@@ -376,7 +376,7 @@ switching - Refreshing analysis - Responsive layouts
 
 ------------------------------------------------------------------------
 
-## 🧹 Data Cleaning Workflow
+##  Data Cleaning Workflow
 
 InsightFlow uses a user-confirmed cleaning workflow.
 
@@ -397,7 +397,7 @@ The goal is to avoid silently changing the user's source data.
 
 ------------------------------------------------------------------------
 
-## 📄 Reporting
+##  Reporting
 
 InsightFlow can generate report documents containing dataset
 information, analytical summaries, quality findings, selected dashboard
@@ -411,7 +411,7 @@ review.
 
 ------------------------------------------------------------------------
 
-## 🔌 API Design
+##  API Design
 
 The backend is organized around FastAPI routers and services.
 
@@ -434,7 +434,7 @@ during local development.
 
 ------------------------------------------------------------------------
 
-## 🗄️ Database
+##  Database
 
 PostgreSQL stores the application's persistent business data.
 
@@ -451,7 +451,7 @@ the database for every change.
 
 ------------------------------------------------------------------------
 
-## 🧠 AI / Insight Layer
+##  AI / Insight Layer
 
 InsightFlow is designed as an AI-powered business intelligence
 application.
@@ -466,7 +466,7 @@ than depending on a local-only model runtime.
 
 ------------------------------------------------------------------------
 
-## ☁️ Deployment
+##  Deployment
 
 The project is structured as a separate frontend and backend
 application, making it suitable for cloud deployment.
@@ -501,7 +501,7 @@ Recommended production practices:
 
 ------------------------------------------------------------------------
 
-## 🧪 Testing Checklist
+##  Testing Checklist
 
 Before sharing a production deployment, verify:
 
@@ -528,7 +528,7 @@ Before sharing a production deployment, verify:
 
 ------------------------------------------------------------------------
 
-## 🎯 Project Goals
+##  Project Goals
 
 InsightFlow AI was built to demonstrate practical full-stack skills
 across:
@@ -550,7 +550,7 @@ across:
 
 ------------------------------------------------------------------------
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 Potential future extensions include:
 
@@ -567,7 +567,7 @@ Potential future extensions include:
 
 ------------------------------------------------------------------------
 
-## 👩‍💻 Author
+##  Author
 
 **Suniya Zulfiqar Ali**
 
@@ -578,7 +578,7 @@ AI, and technology-driven business solutions.
 
 ------------------------------------------------------------------------
 
-## 📌 Project Status
+##  Project Status
 
 **InsightFlow AI --- Final portfolio/deployment version**
 
